@@ -1,5 +1,7 @@
 # EU Clinical Trials Register Scraper
 
+![Screenshot of Scraper Output](./Screenshot%202024-08-30%20at%2022.17.10.png)
+
 ## Introduction
 
 This project is developed to facilitate the scraping of clinical trial data from the [EU Clinical Trials Register](https://www.clinicaltrialsregister.eu/). It's specifically designed to fetch detailed information about trials within a specified date range. The scraper navigates through the register, extracts data from individual trial records, and compiles the information into structured formats for further analysis or reporting. The data is stored in JSON files on AWS S3 and in a DynamoDB table.
